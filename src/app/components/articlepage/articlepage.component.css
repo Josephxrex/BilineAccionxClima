@@ -1,0 +1,88 @@
+
+.titulo-art{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #005148;
+}
+
+
+.preview-art{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #48773E;
+
+}
+.button-art{
+width: 156px;
+height: 43px;
+left: 206px;
+top: 3025px;
+background: #FDF7E3;
+border: 1px solid #005148;
+box-sizing: border-box;
+font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+color: #005148;
+
+}
+.img-art{
+width: 248px;
+height: 384px;
+left: 216px;
+top: 1593px;
+
+}
+.img-art1{
+    position: relative;
+}
+.img-art2{
+    position: relative;
+    width: 248px;
+    height: 384px;
+    left: 255px;
+    top: 1620px;
+    margin-top: 5%;
+    background: #48773E;
+}
+
+.contenedor-arttitle{
+width: 329px;
+height: 58px;
+left: 216px;
+top: 2042px;
+}
+.linea-art{
+width: 1024px;
+height: 11px;
+left: 208px;
+top: 1522px;
+background: #48773E;
+}
+.titulo-prin{
+padding-left: 15%;
+width: 261px;
+height: 120px;
+left: 257px;
+top: 1362px;
+}
+.prin-art{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 58px;
+letter-spacing: 0.1em;
+color: #005148;
+text-align: left !important;
+align-items:flex-end;
+}
