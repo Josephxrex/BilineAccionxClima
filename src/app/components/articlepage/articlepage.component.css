@@ -86,3 +86,23 @@ color: #005148;
 text-align: left !important;
 align-items:flex-end;
 }
+.btn__alt{
+    font-weight: bold;
+    color: white;
+    background-color: #005148;
+    padding: .5rem 2rem;
+  }
+  
+  .btn__container{
+    position: relative;
+  }
+  
+  .btn__alt-shadow{
+    position: absolute;
+    height: 2rem;
+    width: 10rem;
+    background-color: #9FBAAB;
+    z-index: -1;
+    bottom: -.9rem;
+    left: 1rem;
+  }

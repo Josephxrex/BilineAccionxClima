@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { ArticlepageComponent } from './components/articlepage/articlepage.component';
 import { FullArticleComponent } from './components/full-article/full-article.component';
 
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ArticlepageComponent,
-    FullArticleComponent
+    FullArticleComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
