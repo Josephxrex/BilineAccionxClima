@@ -40,7 +40,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
-    line-height: 29px;
+    
     text-transform: uppercase;
     color: #005148;
 }
@@ -49,8 +49,6 @@
     height: 418px;
     left: 357px;
     top: 1409px;
- 
-
 }
 .full-line{
     width: 749px;
@@ -76,8 +74,8 @@ color: #48773E;
   font-weight: normal;
   font-size: 1.2rem;
   line-height: 19px;
-   color: #48773E;
-   text-align: justify;
+  color: #48773E;
+  text-align: justify;
 }
 .full-onu{
 width: 153px;
@@ -99,4 +97,69 @@ font-size: 12px;
 line-height: 14px;
 
 color: #9FBAAB;
+}
+.img-fullart{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 80%;
+}
+
+@media screen and (min-width:335px){
+  .titulo-art{
+    font-size: 1.5rem;
+  }
+  .full-Art-Con{
+    width: 300px;
+    height: 101px;
+  }
+  .full-line{
+    width: 300px;
+  }
+  
+}
+
+@media screen and (min-width: 540px){
+  .titulo-art{
+    font-size: 2rem;
+  }
+  .full-Art-Con{
+    width: 300px;
+    height: 101px;
+  }
+  .full-line{
+    width: 300px;
+  }
+  .full-Art-Con{
+    width: 450px;
+    height: 218px;
+  }
+  
+ 
+
+}
+
+@media screen and (min-width: 767px){
+  .titulo-art{
+    font-size: 2.1rem;
+  }
+  .full-Art-Con{
+    width: 550px;
+    height: 218px;
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+  .titulo-art{
+    font-size: 2.5rem;
+  }
+  .full-Art-Con{
+    width: 750px;
+    height: 418px;
+    left: 357px;
+    top: 1409px;
+}
+  
+
 }
