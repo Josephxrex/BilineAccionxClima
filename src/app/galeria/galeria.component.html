@@ -8,57 +8,57 @@
   data-bs-ride="carousel"
 >
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active img-slider">
       <img
-        src="https://picsum.photos/id/1005/1400/500"
+        src="https://cdn.pixabay.com/photo/2014/09/21/23/25/protest-455717_960_720.jpg"
         class="d-block w-100"
         alt="..."/>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item img-slider">
       <img
-        src="https://picsum.photos/id/1006/1400/500"
+        src="https://cdn.pixabay.com/photo/2019/09/18/21/17/elephant-4487695_960_720.jpg"
         class="d-block w-100"
         alt="..."/>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item img-slider">
       <img
-        src="https://picsum.photos/id/1014/1400/500"
+        src="https://cdn.pixabay.com/photo/2019/12/09/19/39/landscape-4684217_960_720.jpg"
         class="d-block w-100"
         alt="..."/>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item img-slider">
       <img
-        src="https://picsum.photos/id/1008/1400/500"
+        src="https://cdn.pixabay.com/photo/2014/07/13/18/51/high-water-392707_960_720.jpg"
         class="d-block w-100"
         alt="..."/>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item img-slider">
       <img
-        src="https://picsum.photos/id/1009/1400/500"
+        src="https://cdn.pixabay.com/photo/2018/11/25/05/43/climate-change-3836835_960_720.jpg"
         class="d-block w-100"
         alt="..."/>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item img-slider">
       <img
-        src="https://picsum.photos/id/1010/1400/500"
+        src="https://cdn.pixabay.com/photo/2020/02/06/15/11/solar-4824604_960_720.jpg"
         class="d-block w-100"
         alt="..."/>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item img-slider">
       <img
-        src="https://picsum.photos/id/1011/1400/500"
+        src="https://cdn.pixabay.com/photo/2019/05/10/09/55/demonstration-4193109_960_720.jpg"
         class="d-block w-100"
         alt="..."/>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item img-slider">
       <img
-        src="https://picsum.photos/id/1012/1400/500"
+        src="https://cdn.pixabay.com/photo/2020/02/09/11/08/windrader-4832701_960_720.jpg"
         class="d-block w-100"
         alt="..."/>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item img-slider">
       <img
-        src="https://picsum.photos/id/1013/1400/500"
+        src="https://cdn.pixabay.com/photo/2014/04/17/23/26/environmental-protection-326923_960_720.jpg"
         class="d-block w-100"
         alt="..."/>
     </div>
@@ -86,18 +86,20 @@
 
 <!--          Cuadrícula de imágenes          -->
 <section class="container">
-  <article class="row">
+  <article class="row imagenes">
     <div class="col-12 col-md-4">
-      <h5>Intereses monetarios</h5>
+      <h5 class="titulo">Intereses monetarios</h5>
       <a type="button" (click)="openSM(modal1)"><img
         id="1"
         src="https://cdn.pixabay.com/photo/2014/09/21/23/25/protest-455717_960_720.jpg"
         class="imagen"
         alt="..."
       /></a>
+      <div class="imgFooter">
       <button><i type="button" class="bi bi-heart-fill"></i></button>
-      <i type="button" class="bi bi-reply-fill"></i>
-      <p>386 Me gusta</p>
+      <button><i type="button" class="bi bi-reply-fill"></i></button>
+      <p class="imgLikes">386 Me gusta</p>
+    </div>
     </div>
     <div class="col-12 col-md-4">
       <h5>Elefante en pradera</h5>
@@ -107,9 +109,11 @@
         class="imagen"
         alt="..."
       /></a>
-      <button><i type="button" class="bi bi-heart-fill"></i></button>
-      <i type="button" class="bi bi-reply-fill"></i>
-      <p>386 Me gusta</p>
+      <div class="imgFooter">
+        <button><i type="button" class="bi bi-heart-fill"></i></button>
+        <button><i type="button" class="bi bi-reply-fill"></i></button>
+        <p class="imgLikes">386 Me gusta</p>
+      </div>
     </div>
     <div class="col-12 col-md-4">
       <h5>Destrucción de tierras</h5>
@@ -119,13 +123,15 @@
         class="imagen"
         alt="..."
       /></a>
-      <button><i type="button" class="bi bi-heart-fill"></i></button>
-      <i type="button" class="bi bi-reply-fill"></i>
-      <p>386 Me gusta</p>
+      <div class="imgFooter">
+        <button><i type="button" class="bi bi-heart-fill"></i></button>
+        <button><i type="button" class="bi bi-reply-fill"></i></button>
+        <p class="imgLikes">386 Me gusta</p>
+      </div>
     </div>
   </article>
 
-  <article class="row">
+  <article class="row imagenes">
     <div class="col-12 col-md-4">
       <h5>Inundaciones</h5>
       <a type="button" (click)="openSM(modal4)"><img
@@ -134,9 +140,11 @@
         class="imagen"
         alt="..."
       /></a>
-      <button><i type="button" class="bi bi-heart-fill"></i></button>
-      <i type="button" class="bi bi-reply-fill"></i>
-      <p>386 Me gusta</p>
+      <div class="imgFooter">
+        <button><i type="button" class="bi bi-heart-fill"></i></button>
+        <button><i type="button" class="bi bi-reply-fill"></i></button>
+        <p class="imgLikes">386 Me gusta</p>
+      </div>
     </div>
     <div class="col-12 col-md-4">
       <h5>Incendios forestales</h5>
@@ -146,9 +154,11 @@
         class="imagen"
         alt="..."
       /></a>
-      <button><i type="button" class="bi bi-heart-fill"></i></button>
-      <i type="button" class="bi bi-reply-fill"></i>
-      <p>386 Me gusta</p>
+      <div class="imgFooter">
+        <button><i type="button" class="bi bi-heart-fill"></i></button>
+        <button><i type="button" class="bi bi-reply-fill"></i></button>
+        <p class="imgLikes">386 Me gusta</p>
+      </div>
     </div>
     <div class="col-12 col-md-4">
       <h5>Uso de paneles solares</h5>
@@ -158,13 +168,15 @@
         class="imagen"
         alt="..."
       /></a>
-      <button><i type="button" class="bi bi-heart-fill"></i></button>
-      <i type="button" class="bi bi-reply-fill"></i>
-      <p>386 Me gusta</p>
+      <div class="imgFooter">
+        <button><i type="button" class="bi bi-heart-fill"></i></button>
+        <button><i type="button" class="bi bi-reply-fill"></i></button>
+        <p class="imgLikes">386 Me gusta</p>
+      </div>
     </div>
   </article>
 
-  <article class="row">
+  <article class="row imagenes">
     <div class="col-12 col-md-4">
       <h5>Solo tenemos un planeta</h5>
       <a type="button" (click)="openSM(modal7)"><img
@@ -173,11 +185,13 @@
         class="imagen"
         alt="..."
       /></a>
-      <button><i type="button" class="bi bi-heart-fill"></i></button>
-      <i type="button" class="bi bi-reply-fill"></i>
-      <p>386 Me gusta</p>
+      <div class="imgFooter">
+        <button><i type="button" class="bi bi-heart-fill"></i></button>
+        <button><i type="button" class="bi bi-reply-fill"></i></button>
+        <p class="imgLikes">386 Me gusta</p>
+      </div>
     </div>
-    <div style="position:relative; bottom:0px;" class="col-12 col-md-4">
+    <div  class="col-12 col-md-4">
       <h5>Energía eólica</h5>
       <a type="button" (click)="openSM(modal8)"><img
         
@@ -186,9 +200,11 @@
         class="imagen"
         alt="..."
       /></a>
+      <div class="imgFooter">
       <button><i type="button" class="bi bi-heart-fill"></i></button>
-      <i type="button" class="bi bi-reply-fill"></i>
-      <p>386 Me gusta</p>
+      <button><i type="button" class="bi bi-reply-fill"></i></button>
+      <p class="imgLikes">386 Me gusta</p>
+    </div>
     </div>
     <div class="col-12 col-md-4">
       <h5>Proteger la naturaleza</h5>
@@ -198,11 +214,15 @@
         class="imagen"
         alt="..."
       /></a>
-      <button><i type="button" class="bi bi-heart-fill"></i></button>
-      <i type="button" class="bi bi-reply-fill"></i>
-      <p>386 Me gusta</p>
+      <div class="imgFooter">
+        <button><i type="button" class="bi bi-heart-fill"></i></button>
+        <button><i type="button" class="bi bi-reply-fill"></i></button>
+        <p class="imgLikes">386 Me gusta</p>
+      </div>
     </div>
   </article>
+
+
 </section>
 <!--          Termina Cuadrícula de imágenes          -->
 
@@ -247,53 +267,98 @@
   <div class="modal-body">
     <img src="https://cdn.pixabay.com/photo/2014/09/21/23/25/protest-455717_960_720.jpg" class="d-block w-100"/>
   </div>
+  <div class="modal-footer">
+      <button><i type="button" class="bi bi-heart-fill"></i></button>
+      <button><i type="button" class="bi bi-reply-fill"></i></button>
+      <p>386 Me gusta</p>
+  </div>
 </ng-template>
 
 <ng-template #modal2 let-modal>
   <div class="modal-body">
     <img src="https://cdn.pixabay.com/photo/2019/09/18/21/17/elephant-4487695_960_720.jpg" class="d-block w-100"/>
   </div>
+  <div class="modal-footer">
+    <button><i type="button" class="bi bi-heart-fill"></i></button>
+    <button><i type="button" class="bi bi-reply-fill"></i></button>
+    <p>386 Me gusta</p>
+</div>
 </ng-template>
 
 <ng-template #modal3 let-modal>
   <div class="modal-body">
     <img src="https://cdn.pixabay.com/photo/2019/12/09/19/39/landscape-4684217_960_720.jpg" class="d-block w-100"/>
   </div>
+  <div class="modal-footer">
+    <button><i type="button" class="bi bi-heart-fill"></i></button>
+    <button><i type="button" class="bi bi-reply-fill"></i></button>
+    <p>386 Me gusta</p>
+</div>
 </ng-template>
 
 <ng-template #modal4 let-modal>
   <div class="modal-body">
     <img src="https://cdn.pixabay.com/photo/2014/07/13/18/51/high-water-392707_960_720.jpg" class="d-block w-100"/>
   </div>
+  <div class="modal-footer">
+    <button><i type="button" class="bi bi-heart-fill"></i></button>
+    <button><i type="button" class="bi bi-reply-fill"></i></button>
+    <p>386 Me gusta</p>
+</div>
 </ng-template>
 
 <ng-template #modal5 let-modal>
   <div class="modal-body">
     <img src="https://cdn.pixabay.com/photo/2018/11/25/05/43/climate-change-3836835_960_720.jpg" class="d-block w-100"/>
   </div>
+  <div class="modal-footer">
+    <button><i type="button" class="bi bi-heart-fill"></i></button>
+    <button><i type="button" class="bi bi-reply-fill"></i></button>
+    <p>386 Me gusta</p>
+</div>
 </ng-template>
 
 <ng-template #modal6 let-modal>
   <div class="modal-body">
     <img src="https://cdn.pixabay.com/photo/2020/02/06/15/11/solar-4824604_960_720.jpg" class="d-block w-100"/>
   </div>
+  <div class="modal-footer">
+    <button><i type="button" class="bi bi-heart-fill"></i></button>
+    <button><i type="button" class="bi bi-reply-fill"></i></button>
+    <p>386 Me gusta</p>
+</div>
 </ng-template>
 
 <ng-template #modal7 let-modal>
   <div class="modal-body">
     <img src="https://cdn.pixabay.com/photo/2019/05/10/09/55/demonstration-4193109_960_720.jpg" class="d-block w-100"/>
   </div>
+  <div class="modal-footer">
+    <button><i type="button" class="bi bi-heart-fill"></i></button>
+    <button><i type="button" class="bi bi-reply-fill"></i></button>
+    <p>386 Me gusta</p>
+</div>
 </ng-template>
 
 <ng-template #modal8 let-modal>
   <div class="modal-body">
     <img src="https://cdn.pixabay.com/photo/2020/02/09/11/08/windrader-4832701_960_720.jpg" class="d-block w-100"/>
   </div>
+  <div class="modal-footer">
+    <button><i type="button" class="bi bi-heart-fill"></i></button>
+    <button><i type="button" class="bi bi-reply-fill"></i></button>
+    <p>386 Me gusta</p>
+</div>
 </ng-template>
 
 <ng-template #modal9 let-modal>
   <div class="modal-body">
     <img src="https://cdn.pixabay.com/photo/2014/04/17/23/26/environmental-protection-326923_960_720.jpg" class="d-block w-100"/>
+  </div>
+  <div class="modal-footer">
+      <button><i type="button" class="bi bi-heart-fill"></i></button>
+      <button><i type="button" class="bi bi-reply-fill"></i></button>
+      <p>386 Me gusta</p>
   </div>
 </ng-template>
 
