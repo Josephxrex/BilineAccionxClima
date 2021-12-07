@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FullArticleComponent } from './components/full-article/full-article.component';
 import { ArticlepageComponent } from './components/articlepage/articlepage.component';
 import { GaleriaComponent } from './galeria/galeria.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 const routes: Routes = [
   {path: 'modal',component: GaleriaComponent},
@@ -12,7 +13,10 @@ const routes: Routes = [
     path:'articulos/:variable',
     component:FullArticleComponent
   },
-  {path:'**',redirectTo:'articlepage'}
+  {path:'**',redirectTo:'articlepage'},
+  //RUTA PARA CONTACTO
+  {path: 'contact',component: ContactoComponent},
+  //
 ];
 
 @NgModule({

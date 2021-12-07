@@ -11,6 +11,7 @@ import { ArticlepageComponent } from './components/articlepage/articlepage.compo
 import { FullArticleComponent } from './components/full-article/full-article.component';
 
 import { NavbarComponent } from './navbar/navbar.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     FullArticleComponent,
     NavbarComponent,
 
-    GaleriaComponent
+    GaleriaComponent,
+      ContactoComponent
   ],
   imports: [
     BrowserModule,
