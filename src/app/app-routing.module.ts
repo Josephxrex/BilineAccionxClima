@@ -4,6 +4,7 @@ import { FullArticleComponent } from './components/full-article/full-article.com
 import { ArticlepageComponent } from './components/articlepage/articlepage.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { TablaComponent } from './tabla/tabla.component';
 
 const routes: Routes = [
   {path: 'modal',component: GaleriaComponent},
@@ -14,11 +15,11 @@ const routes: Routes = [
     path:'articulos/:variable',
     component:FullArticleComponent
   },
-  {path:'**',redirectTo:'articlepage'},
-  
+  {path:'articulos',component:ArticlepageComponent },
   //RUTA PARA CONTACTO
   {path: 'contact',component: ContactoComponent},
-  //
+  {path: 'miembros',component:TablaComponent},
+  {path:'**',redirectTo:'articlepage'},
 ];
 
 @NgModule({
