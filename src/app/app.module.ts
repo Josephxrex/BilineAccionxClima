@@ -11,7 +11,11 @@ import { ArticlepageComponent } from './components/articlepage/articlepage.compo
 import { FullArticleComponent } from './components/full-article/full-article.component';
 
 import { NavbarComponent } from './navbar/navbar.component';
+<<<<<<< HEAD
 import { ContactoComponent } from './contacto/contacto.component';
+=======
+import { FooterComponent } from './footer/footer.component';
+>>>>>>> 2a78725145ad10a8c071a0e33c4a5008651e0457
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { ContactoComponent } from './contacto/contacto.component';
     NavbarComponent,
 
     GaleriaComponent,
+<<<<<<< HEAD
       ContactoComponent
+=======
+      FooterComponent
+>>>>>>> 2a78725145ad10a8c071a0e33c4a5008651e0457
   ],
   imports: [
     BrowserModule,
