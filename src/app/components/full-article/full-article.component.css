@@ -104,6 +104,20 @@ color: #9FBAAB;
   max-width: 100%;
   width: 80%;
 }
+.full-artp {
+  max-width: 800px;
+
+}
+.desText{
+  border: 1px solid red;
+}
+.contenido-art{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  
+}
 
 @media screen and (min-width:335px){
   .titulo-art{
@@ -163,3 +177,17 @@ color: #9FBAAB;
   
 
 }
+
+
+
+
+
+
+
+
+
+
+
+/*Prueba*/
+
+

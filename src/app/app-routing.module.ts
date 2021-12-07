@@ -7,13 +7,15 @@ import { ContactoComponent } from './contacto/contacto.component';
 
 const routes: Routes = [
   {path: 'modal',component: GaleriaComponent},
-  //RUTA TEMPORAL SOLO PARA  LOS ARTICULOS
+  
+  //RUTA LOS ARTICULOS
   {path:'',component:ArticlepageComponent,pathMatch:'full'},
   {
     path:'articulos/:variable',
     component:FullArticleComponent
   },
   {path:'**',redirectTo:'articlepage'},
+  
   //RUTA PARA CONTACTO
   {path: 'contact',component: ContactoComponent},
   //
