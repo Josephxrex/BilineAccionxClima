@@ -39,6 +39,11 @@ color: red;
    align-items: center;
 }
 
+button:active .bi{
+
+   color: red !important;
+
+   }
 
 /* MODIFICICACIONES */
 .container__line{

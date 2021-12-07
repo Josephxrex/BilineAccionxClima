@@ -15,9 +15,10 @@
     </div>
     <div class="row ">
     <div class="col-12 col-md-6 col-lg-4 mt-4 "*ngFor="let articulo of listArticle ;let i=index">
+
     <img src= {{articulo.img}} class="img-art">
     <p class="titulo-art mt-3">{{articulo.title}}</p>
-
+    
     <p class="preview-art mt-2">
         {{articulo.preview}}
     </p>
@@ -25,6 +26,7 @@
         <a routerLink={{articulo.ruta}} class="btn__alt">IR A GALERÍA</a>
         <div class="btn__alt-shadow"></div>
       </div>
+
     </div>
    </div>
 </div>
