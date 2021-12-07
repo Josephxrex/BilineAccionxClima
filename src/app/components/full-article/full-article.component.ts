@@ -24,7 +24,7 @@ export class FullArticleComponent implements OnInit {
   }
 
   loadData(nombreart:string){
-   this.RestService.get(`http://localhost:3000/articulos/${nombreart}`).subscribe(answer=>{
+     this.RestService.get(`http://localhost:3000/articulos/${nombreart}`).subscribe(answer=>{
      this.respuesta=answer;
    })
   }

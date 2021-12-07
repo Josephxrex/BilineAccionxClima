@@ -14,6 +14,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { TablaComponent } from './tabla/tabla.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FooterComponent } from './footer/footer.component';
       GaleriaComponent,
       ContactoComponent,
       TablaComponent,
-      FooterComponent
+      FooterComponent,
+      HeaderComponent
   ],
   imports: [
     BrowserModule,
