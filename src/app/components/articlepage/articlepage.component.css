@@ -1,4 +1,8 @@
 
+a{
+  text-decoration: none;
+}
+
 .titulo-art{
     font-family: Lato;
     font-style: normal;
@@ -7,6 +11,17 @@
     line-height: 29px;
     text-transform: uppercase;
     color: #005148;
+}
+
+.text__article{
+  width: 280px;
+}
+
+.article__complete{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -89,9 +104,11 @@ color: #005148;
 
 .btn__alt{
     font-weight: bold;
-    color: white;
-    background-color: #005148;
+    color: #005148;
+    background-color: #FDF7E3;
     padding: .5rem 2rem;
+    font-size: 18px;
+    border: 1px solid #005148;
   }
 
   .btn__container{
@@ -101,9 +118,9 @@ color: #005148;
 
   .btn__alt-shadow{
     position: absolute;
-    height: 2rem;
-    width: 10rem;
-    background-color: #9FBAAB;
+    height: 43px;
+    width: 156px;
+    background-color: #005148;
     z-index: -1;
     bottom: -.9rem;
     left: 1rem;

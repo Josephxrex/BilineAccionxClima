@@ -7,8 +7,8 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { TablaComponent } from './tabla/tabla.component';
 
 const routes: Routes = [
-  {path: 'modal',component: GaleriaComponent},
-  
+  {path: 'galeria',component: GaleriaComponent},
+
   //RUTA LOS ARTICULOS
   {path:'',component:ArticlepageComponent,pathMatch:'full'},
   {
@@ -17,7 +17,7 @@ const routes: Routes = [
   },
   {path:'articulos',component:ArticlepageComponent },
   //RUTA PARA CONTACTO
-  {path: 'contact',component: ContactoComponent},
+  {path: 'contacto',component: ContactoComponent},
   {path: 'miembros',component:TablaComponent},
   {path:'**',redirectTo:'articlepage'},
 ];
