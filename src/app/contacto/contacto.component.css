@@ -170,7 +170,7 @@ table{
       font-style: normal !important;
       color: #005148 !important;
     }
-  
+
     input{
       font-family: 'Lato', sans-serif !important;
       font-style: normal !important;
@@ -189,7 +189,7 @@ table{
     #comentarios{
       margin-left: 15rem;
     }
-  
+
     #EnviInfo{
       background: #FDF7E3;
       border: 1px solid #005148 !important;
@@ -205,4 +205,11 @@ table{
       color: #005148 !important;
       box-shadow: 5px 5px #005148;
     }
+  }
+
+
+  /* Cambios */
+
+  hr{
+    margin-top: 5rem;
   }
