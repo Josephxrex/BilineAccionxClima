@@ -106,3 +106,8 @@ align-items:flex-end;
     bottom: -.9rem;
     left: 1rem;
   }
+  .fondo-artdim{
+    position: relative;
+    z-index: -1;
+    background-color: bisque
+  }
