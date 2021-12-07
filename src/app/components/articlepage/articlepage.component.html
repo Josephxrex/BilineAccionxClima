@@ -1,22 +1,26 @@
 
 <br>
-<div class=" titulo-prin mt-5">
+
+
+ <div class="container ">
+  <div class=" titulo-prin mt-5">
     <p class="prin-art">
         ÚLTIMAS
-         NOTICIAS
+        <b> NOTICIAS</b>
     </p>
 </div>
+    <div class="container__line d-flex justify-content-center">
 
-<div class="container  align-items-center">
-    <p class="linea-art"></p>
+      <div class="linea-art"></div>
+    </div>
     <div class="row ">
     <div class="col-12 col-md-6 col-lg-4 mt-4 "*ngFor="let articulo of listArticle ;let i=index">
     <img src= {{articulo.img}} class="img-art">
     <p class="titulo-art mt-3">{{articulo.title}}</p>
-    
+
     <p class="preview-art mt-2">
-        {{articulo.preview}}
-    </p>  
+        {{articpusulo.preview}}
+    </p>
     <div class="btn__container mt-4">
         <a routerLink={{articulo.ruta}} class="btn__alt">IR A GALERÍA</a>
         <div class="btn__alt-shadow"></div>
